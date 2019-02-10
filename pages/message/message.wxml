@@ -1,0 +1,23 @@
+<!--pages/message/message.wxml-->
+<view class="card">
+	<text class="card-title">标题11</text>
+	<text class="card-date">2019-02-02</text>
+	<image class="card-img" src="https://m.360buyimg.com/mobilecms/s750x366_jfs/t1/21170/12/6321/75803/5c4ec071E1b97527c/5b1fd77338a9f44d.jpg!cr_1125x549_0_72!q70.jpg.dpg" mode="aspectFill" />
+	<text class="card-desc">越努力,越幸福</text>
+	<text class="card-read arrow">查看详情</text>
+</view>
+<view class="card">
+	<text class="card-title">标题11</text>
+	<text class="card-date">2019-02-02</text>
+	<image class="card-img" src="https://m.360buyimg.com/mobilecms/s750x366_jfs/t1/21170/12/6321/75803/5c4ec071E1b97527c/5b1fd77338a9f44d.jpg!cr_1125x549_0_72!q70.jpg.dpg" mode="aspectFill" />
+	<text class="card-desc">越努力,越幸福</text>
+	<text class="card-read arrow">查看详情</text>
+</view>
+<view class="card">
+	<text class="card-title">标题11</text>
+	<text class="card-date">2019-02-02</text>
+	<image class="card-img" src="https://m.360buyimg.com/mobilecms/s750x366_jfs/t1/21170/12/6321/75803/5c4ec071E1b97527c/5b1fd77338a9f44d.jpg!cr_1125x549_0_72!q70.jpg.dpg" mode="aspectFill" />
+	<text class="card-desc">越努力,越幸福</text>
+	<text class="card-read arrow">查看详情</text>
+</view>
+

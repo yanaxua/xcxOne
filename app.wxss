@@ -1,0 +1,84 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page{
+  background-color: #f1f1f1;
+}
+.bgw{
+  background-color: #fff;
+}
+.mt20{
+  margin-top: 20rpx;
+}
+.disflex{
+  display: flex;
+}
+.disflex-colum{
+  display: flex;
+  flex-direction: column;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divider{
+  height: 20rpx;
+  background-color: #f1f1f1;
+  box-shadow: 0 10rpx 10rpx rgba(0, 0, 0, .1) inset;
+}
+.bdr{
+  position: relative;
+}
+.bdr::after{
+  content: "";
+  width: 1rpx;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+}
+/* 箭头 */
+.arrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow::after{
+  content: "";
+  width: 15rpx;
+  height: 15rpx;
+  border-top: 3rpx solid #ccc;
+  border-right: 3rpx solid #ccc;
+  transform: rotate(45deg);
+}
+/* 列表封装 */
+.cell{
+  font-size: 16px;
+  background-color: #fff;
+}
+.cell-item{
+  border-bottom: 1rpx solid #ddd;
+  padding: 20rpx 30rpx;
+}
+/* 单行文字省略 */
+.textEllipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 加载  */

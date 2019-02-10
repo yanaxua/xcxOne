@@ -1,0 +1,51 @@
+page {
+  background-color: #fff;
+}
+
+.shop {}
+
+.shop-item {
+  position: relative;
+  padding: 20rpx;
+  border-bottom: 1px solid #ddd;
+}
+
+.shop-img {
+  height: 160rpx;
+  width: 160rpx;
+  align-self: center;
+}
+
+.shop-text {
+  font-size: 12px;
+  margin-left: 20rpx;
+  color: #666;
+  line-height: 1.5;
+}
+
+.shop-title {
+  font-size: 14px;
+  width: calc(100% - 150rpx);
+}
+
+.shop-star {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.star-after {
+  color: #ccc;
+}
+
+.star-before {
+  color: #f19e38;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 90%;
+}
+.shop-address{
+  width: 100%;
+}

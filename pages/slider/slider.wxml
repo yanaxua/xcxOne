@@ -1,0 +1,39 @@
+<view class='slider'>
+	<swiper
+	 class=""
+	 indicator-dots="{{true}}"
+	 autoplay="1"
+	 current="0"
+	 current-item-id="1"
+	 interval="4000"
+	 duration="1000"
+	 circular="{{true}}"
+	 previous-margin="{{false}}"
+	 next-margin="0px"
+	 display-multiple-items="1"
+	 skip-hidden-item-layout="{{false}}"
+	>
+		<swiper-item wx:for="{{sliderList}}" wx:key="index" item-id="{{item.id}}">
+			<image lazy-load mode="aspectFill" src='{{item.image}}' />
+		</swiper-item>
+	</swiper>
+</view>
+<view class='slider-navi bgw'>
+	<navigator wx:for="{{menuList}}" wx:key="id" url='/pages/shopList/shopList?navi={{item.id}}&title={{item.name}}' class='navi-item bdr'>
+		<image lazy-load src='{{item.icon}}'/>
+		<text>{{item.name}}</text>
+	</navigator>
+		
+</view>
+
+<view class="divider" />
+
+<view class="slider-home bgw">
+	<navigator class="home-item" url="/pages/index/index">
+		<image lazy-load src="/assets/images/link-01.png" lazy-load="false" />
+	</navigator>
+	<navigator class="home-item" url="/pages/index/index">
+		<image lazy-load src="/assets/images/link-02.png" lazy-load="false" />
+	</navigator>
+</view>
+

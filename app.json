@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/slider/slider",
+    "pages/shopList/shopList",
+    "pages/index/index",
+    "pages/contact/contact",
+    "pages/message/message",
+    "pages/logs/logs",
+    "pages/infoTable/infoTable"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f60",
+    "navigationBarTitleText": "测试小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#333",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/slider/slider",
+        "iconPath":"/assets/tabs/home.png",
+        "selectedIconPath":"/assets/tabs/home-active.png",
+        "text": "首页"
+      }, 
+      {
+        "pagePath": "pages/contact/contact",
+        "iconPath":"/assets/tabs/contact.png",
+        "selectedIconPath":"/assets/tabs/contact-active.png",
+        "text": "联系人"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath":"/assets/tabs/message.png",
+        "selectedIconPath":"/assets/tabs/message-active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/infoTable/infoTable",
+        "iconPath":"/assets/tabs/profile.png",
+        "selectedIconPath":"/assets/tabs/profile-active.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

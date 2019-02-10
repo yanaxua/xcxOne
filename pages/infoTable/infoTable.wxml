@@ -1,0 +1,45 @@
+<view class="avatar flex-center">
+	<image
+	 class="avatar-img"
+	 src="/assets/images/avatar.png"
+	 mode="aspectFill"
+	 lazy-load="false"
+	/>
+</view>
+
+<view class="divider" />
+
+<view class="cell">
+	<navigator class="cell-item" url="">
+		<text class="">个人资料</text>
+	</navigator>
+	<navigator class="cell-item arrow" url="">
+		<text class="">我的优惠卷</text>
+	</navigator>
+</view>
+
+<view class="divider" />
+
+<view class="cell">
+	<navigator class="cell-item arrow" url="">
+		<text class="">常见问题</text>
+	</navigator>
+	<navigator class="cell-item arrow" url="">
+		<text class="">使用条款</text>
+	</navigator>
+	<navigator class="cell-item arrow" url="">
+		<text class="">常见问题</text>
+	</navigator>
+	<navigator class="cell-item arrow" url="">
+		<text class="">使用条款</text>
+	</navigator>
+</view>
+
+<view class="divider" />
+
+<view class="cell">
+	<navigator class="cell-item arrow" url="">
+		<text class="">设置</text>
+	</navigator>
+</view>
+

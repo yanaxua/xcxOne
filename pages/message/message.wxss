@@ -1,0 +1,39 @@
+/* pages/message/message.wxss */
+page{
+  background-color: #f1f1f1;
+}
+.card{
+  background-color: #fff;
+  border: 1rpx solid #ddd;
+  border-radius: 10rpx;
+  margin: 60rpx 20rpx;
+  padding: 20rpx 35rpx;
+  display: flex;
+  flex-direction: column;
+}
+.card-title{
+  font-size: 20px;
+  margin-bottom: 20rpx;
+}
+.card-date{
+  color: #ccc;
+  font-size: 14px;
+  border-bottom: 1rpx solid #ddd;
+  margin-bottom: 20rpx;
+  padding-bottom: 20rpx;
+}
+.card-img{
+height: 300rpx;
+width: 100%;
+}
+.card-desc{
+  color: #ddd;
+  font-size: 14px;
+  border-bottom: 1rpx solid #ddd;
+  line-height: 60rpx;
+  margin-bottom: 20rpx;
+}
+.card-read{
+  font-size: 14px;
+  color: #666;
+}
